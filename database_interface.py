@@ -22,4 +22,4 @@ def get_user(user):
 def set_user(user, M, D):
     data = read_json("users.json")
     data[user] = {"M": M, "D": D}
-    write_json("users.json", data)
+    write_json("users.json", data) 
